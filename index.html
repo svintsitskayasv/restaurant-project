@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Little Lemon Restaurant" />
+    <meta
+      name="description"
+      content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist."
+    />
+    <meta name="author" content="Little Lemon Restaurant" />
+    <meta property="og:title" content="Little Lemon Restaurant" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:description"
+      content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist."
+    />
+    <meta property="og:locale" content="en_US" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Little Lemon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <img src="logos/Asset 16@4x.png" alt="Logo" />
+        </div>
+        <nav>
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#section--1">About</a></li>
+            <li><a class="nav__link" href="#section--2">Our Menu</a></li>
+            <li><a class="nav__link" href="#section--3">Contacts</a></li>
+            <li>
+              <a class="nav__link btn__show-modal" href="#">Reservation</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="banner">
+          <img
+              src="images/italian family eating.jpg"
+              alt="Italian family dinner"
+            />
+          <article class="banner__info">
+            <div class="info__wrap">
+              <div class="banner__heading">
+                <h1>Super Delicious And Cosy</h3>
+                <h2>Family Dinner</h1>
+              </div>
+              <div class="banner__offer">
+                <h3>Special Offer</h3>
+                <p>in this month</p>
+                <h3>20% off</h3>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="about__row" id="section--1">
+            <div class="about__info">
+              <h2 class="about__heading">About us</h2>
+              <p class="about__par">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate corrupti explicabo asperiores fugit error a, perspiciatis excepturi quod magni minus, quisquam non laudantium quam perferendis sunt, maxime repellendus est. Minima quasi deleniti optio deserunt eos praesentium accusantium expedita eligendi laudantium. Cupiditate ab aspernatur voluptas voluptatem vitae reprehenderit molestiae, at consequuntur doloremque. Id, ex. Consectetur rem qui, illo dolorum voluptas corrupti modi exercitationem nobis maxime dolore iure iste assumenda ipsum veniam consequatur placeat delectus est.</p>
+            </div>
+              <img src="images/Italy.jpg" alt="Italy map">
+        </section>
+
+        <section class="menu" id="section--2">
+          <article class="items">
+            <picture>
+                <source srcset="images/item01.jpg" media="(max-width: 600px)">
+              <img src="images/item1.jpg" alt="Rosemary Roasted Potatoes" />
+            </picture>
+            <div class="dish__description">
+              <h3>Rosemary Roasted Potatoes</h3>
+              <p>
+                Everyone will want seconds of these rosemary roasted potatoes!
+                Baked crispy potatoes with herbs for a deliciously healthy side
+                dish.
+              </p>
+            </div>
+          </article>
+          <article class="items">
+            <picture>
+                <source srcset="images/item02.jpg" media="(max-width: 600px)">
+              <img src="images/item2.jpg" alt="Tiramisu" />
+            </picture>
+            <div class="dish__description">
+              <h3>Tiramisu</h3>
+              <p>
+                Tiramisu is a coffee-flavoured Italian dessert. It is made of
+                ladyfingers (savoiardi) dipped in coffee, layered with a whipped
+                mixture of eggs, sugar, and mascarpone cheese, flavoured with
+                cocoa.
+              </p>
+            </div>
+          </article>
+          <article class="items">
+            <picture>
+                <source srcset="images/item03.jpg" media="(max-width: 600px)">
+              <img src="images/item3.jpg" alt="Prosciutto rolls" />
+            </picture>
+            <div class="dish__description">
+              <h3>Prosciutto rolls</h3>
+              <p>
+                These rolls have it all: salty prosciutto, sweet fig preserves,
+                and creamy goat cheese.
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <section class="contacts" id="section--3">
+          <div class="contacts__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d296535.35256771493!2d18.463479!3d54.503825!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spl!4v1700066677451!5m2!1sen!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="contacts__info">
+            <h2 class="contacts__heading">Contacts</h2>
+            <p class="contacts__par">Doors of our restaurant are open Monday-Sunday / 8.00 am - 11.00 pm</p>
+            <p class="contacts__par">
+              <a href="tel:111222333">+48 111 222 333</a>
+            </p>
+            <p class="contacts__par">
+              <a href="mailto:reservation@littlelemon.restaurant">reservation@littlelemon.restaurant</a>
+            </p>
+            <p class="contacts__par">Little Lemon Restaurant<br>Wolnosci 80<br>11-222 Gdynia</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__logo">
+          <img class="logo__img" src="logos/Asset 16@4x.png" alt="Logo" />
+        </div>
+        <div class="footer__copy">
+          <p>&copy 2023 Little Lemon</p>
+        </div>
+      </footer>
+    </div>
+
+    <!--modal window-->
+    <div class="modal hidden">
+      <button class="btn__close-modal">&times;</button>
+      <div>
+        <h2 class="modal__header">
+        Book a table
+        </h2>
+        <form class="modal__form">
+          <label for="name">Name</label>
+          <input type="text" id="name"/>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone"/>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <button class="btn">Next step &rarr;</button>
+        </form>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
